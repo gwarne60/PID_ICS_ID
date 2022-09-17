@@ -67,7 +67,7 @@ root.withdraw()
 messagebox.showinfo("FHX Parser", "Please select the input pdf image")
 file_path = filedialog.askopenfilename()
 
-#Break the image into a grid of 256x256 pixel images , with 50% overlap horizontally and vertically
+#Break the image into a grid , with 50% overlap horizontally and vertically
 #Load the image
 image = cv2.imread(file_path)
 #Get the height and width of the image
